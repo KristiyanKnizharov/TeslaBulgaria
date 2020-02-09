@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tesla Bulgaria Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css" >
+    <link rel="icon" href="images/tesla.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body {
+  font-size: 28px;
+  text-align:justify;
+}
+/* make background be like sky */
+h2{
+    cursor: none;
+    margin: 100%;
+    padding: 25px;
+    margin: 0px;
+    background-image: url(https://i2.wp.com/electrek.co/wp-content/uploads/sites/3/2019/11/Tesla-Model-S-X-3-hero.jpg?w=2000&quality=82&strip=all&ssl=1);
+}
+/* h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+} */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+/* make element to be white(default) */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* make element to be black */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+    letter-spacing: 10px;
+    cursor:pointer;
+/* font-variant-numeric: diagonal-fractions; */
+}
+img{
+    width: 100%;
+    height: auto;
+
+}
+.footer{
+    cursor: none;
+    text-align:center;
+    background-color: #333;
+    color: #ffffff;
+    padding: 15px;
+}
+.contact{
+    background-color: rgb(53, 100, 6);
+}
+.message{
+ color: white;
+}
+/* new style */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+
+
+<!-- BODY -->
+<body>
+
+<div class="header">
+  <h2 class="title">Тесла България</h2>
+</div>
+
+<ul>
+  <li><a class="active" href="file:///C:/Users/admin/Desktop/NBU/HTML/Project-tesla/index.html">S3XY</a></li>
+  <li><a href="https://www.tesla.com/en_eu/models">Модел S</a></li>
+  <li><a href="https://www.tesla.com/en_eu/model3">Модел 3</a></li>
+  <li><a href="https://www.tesla.com/en_eu/modelx">Модел Х</a></li>
+  <li><a href="https://www.tesla.com/en_eu/modely">Модел Y</a></li>
+  <li><a href="https://www.google.com/maps/search/charging+station/@42.6824911,23.319479,12.31z">Зарядни станции</a></li>
+  <li><a class="contact"href="#contact">Контакти</a></li>
+
+</ul>
+<!-- https://ev-database.org/img/auto/Tesla_Model_3/Tesla_Model_3-01.jpg -->
+<img src="https://i2.wp.com/electrek.co/wp-content/uploads/sites/3/2019/11/Tesla-Model-S-X-3-hero.jpg?w=2000&quality=82&strip=all&ssl=1" alt="Tesla_Model_3">
+
+
+<!-- New Items -->
+<!-- <h3>Попълнете полетата</h3> -->
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Име</label>
+    <input type="text" id="fname" name="firstname" placeholder="Твоето име..">
+
+    <label for="lname">Фамилия</label>
+    <input type="text" id="lname" name="lastname" placeholder="Фамилия..">
+
+    <label for="Town">Град</label>
+    <select id="Town" name="Town">
+      <option value="Sofia">София</option>
+      <option value="Plovdiv">Пловдив</option>
+      <option value="Varna">Варна</option>
+      <option value="Бургас">Бургас</option>
+    </select>
+
+    <label for="subject">Съобщение</label>
+    <textarea id="subject" name="subject" placeholder="Напишете тук.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div class="footer">Tesla 2020  Privacy & Legal</div>
+</body>
+</html>
