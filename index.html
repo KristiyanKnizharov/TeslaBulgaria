@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tesla Bulgaria Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css" >
+    <link rel="icon" href="images/tesla.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+
+body {
+  font-size: 28px;
+  text-align:justify;
+}
+
+/* make background be like sky */
+h2{
+    cursor: none;
+    margin: 100%;
+    padding: 25px;
+    margin: 0px;
+    background-image: url(https://i2.wp.com/electrek.co/wp-content/uploads/sites/3/2019/11/Tesla-Model-S-X-3-hero.jpg?w=2000&quality=82&strip=all&ssl=1);
+}
+
+h3{
+    font-size: 28px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.mainText{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+/* make element to be white(default) */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* make element to be black */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+    letter-spacing: 10px;
+    cursor: pointer;;
+    /* font-variant-numeric: diagonal-fractions; */
+}
+
+img{
+    width: 100%;
+    height: auto;
+
+}
+
+.footer{
+    cursor: none;
+    text-align:center;
+    background-color: #333;
+    color: #ffffff;
+    padding: 15px;
+}
+
+/* clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+/* Responsive picture */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+.button{
+    size: 30px;
+}
+
+</style>
+</head>
+
+
+<!-- BODY -->
+<body>
+
+<div class="header">
+  <h2 class="title">Тесла България</h2>
+</div>
+
+<ul>
+  <li><a class="active" hrev="file:///C:/Users/admin/Desktop/NBU/HTML/Project-tesla/index.html">S3XY</a></li>
+  <li><a href="https://www.tesla.com/en_eu/models">Модел S</a></li>
+  <li><a href="https://www.tesla.com/en_eu/model3">Модел 3</a></li>
+  <li><a href="https://www.tesla.com/en_eu/modelx">Модел Х</a></li>
+  <li><a href="https://www.tesla.com/en_eu/modely">Модел Y</a></li>
+  <li><a href="https://www.google.com/maps/search/charging+station/@42.6824911,23.319479,12.31z">Зарядни станции</a></li>
+  <li><a href="file:///C:/Users/admin/Desktop/NBU/HTML/Project-tesla/contacts.html">Контакти</a></li>
+
+</ul>
+
+<!-- https://ev-database.org/img/auto/Tesla_Model_3/Tesla_Model_3-01.jpg -->
+
+<img src="https://i2.wp.com/electrek.co/wp-content/uploads/sites/3/2019/11/Tesla-Model-S-X-3-hero.jpg?w=2000&quality=82&strip=all&ssl=1" alt="Tesla_Model_3">
+
+<h3>Представяме на Вашето внимание първият български сайт на марката Тесла.</h3>
+<p class="mainText">
+    Марката <strong>Тесла Моторс</strong> е американска компания, основана през 2003 година от канадско-американският инженер 
+    Илон Мъск. Компанията е ориентирана основно към производството на електромобили, както и към възобновяема електроенергия.
+    Първият електроавтомобил на фирмата е пуснат през 2006 година и е наречен Роудстър(първият сериен двуврат спортен автомобил).
+    Със своите литиево-йонни акумулаторни батерии, той може да измине 320 км. с едно зареждане. 2012 година идва и следващия модел 
+    на марката, а именно Модел S. Първоначално Тесла Моторс произвеждат 10 000 бройки, но заради голямото търсене марката пуска още 
+    30 000. Базовата цена на тази лимозина е 57 500 долара, но със свойте 426 км тя превъзхожда всички останали електромобили на пазара. 
+    Същата година е представен и Модел Х(кросоувър), който бива пуснат 2015 година. Неговите предимства са третият ред седалки, 
+    автоматично отварящи се нагоре задни врати и вграждане на два двигателя за 4х4. Пробегът му достига 507км. През 2016 година излиза 
+    най-известният електрически седан - Модел 3. Той е бюджетен автомобил започващ от 35 000 долара и изминава 530км. Тази година марката
+    ще предложи на клиентите си още 2 модела - Модел Y и Cybertruck.
+    Тесла България ще бъде първият шоурум на марката, който предстои да бъде открит в град София. <strong> Очакваме ви!</strong>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://www.tesla.com/sites/tesla/files/curatedmedia/model-s%402x.jpg" alt="Los Angeles">
+      </div>
+  
+      <div class="item">
+        <img src="https://images.hdqwalls.com/download/2018-tesla-model-3-p1-2880x1800.jpg" alt="Chicago">
+      </div>
+  
+      <div class="item">
+        <img src="https://www.tesla.com/sites/tesla/files/curatedmedia/performance-hero%402.jpg" alt="New York">
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<!-- <button class="button"
+onclick="firstswap".src="images\model-3-sunset-1024x542.jpg">left</button>
+<img id="firstswap" src="images\model-3-sunset-1024x542.jpg" style="width: 100px;">
+<img id="secondswap"src="https://www.solidsmack.com/wp-content/uploads/2019/12/Cybertruck.jpg"
+<button onclick="secondswap".src="images\model-3-sunset-1024x542.jpg">right
+</button -->
+
+<!-- pics 
+1. https://nuvomagazine.scdn2.secure.raxcdn.com/wp-content/uploads/2017/11/Roadster_Front_34.jpg
+2. https://pbs.twimg.com/media/EJ9H_BqVUAEnU4X.jpg
+3. https://inteng-storage.s3.amazonaws.com/img/iea/Xm6lKRnpGD/sizes/tesla-semi_resize_md.jpg -->
+
+
+<div class="row">
+    <div class="column">
+      <img src="https://www.tesla.com/sites/tesla/files/curatedmedia/model-s%402x.jpg" alt="Tesla S" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="https://images.hdqwalls.com/download/2018-tesla-model-3-p1-2880x1800.jpg" alt="Tesla 3" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="https://www.tesla.com/sites/tesla/files/curatedmedia/performance-hero%402.jpg" alt="Tesla X" style="width:100%">
+    </div>
+  </div>
+
+<div class="footer">Tesla 2020  Privacy & Legal</div>
+</body>
+</html>
